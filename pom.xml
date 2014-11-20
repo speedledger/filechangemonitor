@@ -15,6 +15,26 @@
             <url>http://www.opensource.org/licenses/mit-license.php</url>
         </license>
     </licenses>
+    <developers>
+        <developer>
+            <name>Andreas Mossljung</name>
+            <email>am@speedledger.se</email>
+            <organization>Speedledger</organization>
+            <organizationUrl>http://www.speedledger.se</organizationUrl>
+        </developer>
+        <developer>
+            <name>Anders Olofsson</name>
+            <email>ado@speedledger.se</email>
+            <organization>Speedledger</organization>
+            <organizationUrl>http://www.speedledger.se</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:speedledger/filechangemonitor.git</connection>
+        <developerConnection>scm:git:git@github.com:speedledger/filechangemonitor.git</developerConnection>
+        <url>git@github.com:speedledger/filechangemonitor.git</url>
+    </scm>
 
     <build>
         <plugins>
