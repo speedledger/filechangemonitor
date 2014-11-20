@@ -7,6 +7,7 @@ java.nio.file.WatchService is used for the monitoring. Java 8 is required, no ot
 
 ##Usage example:
 
+```
 public class Example {
     void fileChanged(String dir, String file) {
         System.out.println("File changed");
@@ -20,3 +21,4 @@ public class Example {
         new Example().start();
     }
 }
+```
