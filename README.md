@@ -5,8 +5,18 @@ This project consist of only one class that monitors files on disk for changes. 
 
 java.nio.file.WatchService is used for the monitoring. Java 8 is required, no other dependencies. By default java.util.logging is used, but you can plug in your own logging framework if you want.
 
-##Usage example:
+### Usage example:
 
+#### pom.xml
+```
+<dependency>
+    <groupId>com.speedledger</groupId>
+    <artifactId>filechangemonitor</artifactId>
+    <version>1.1</version>
+</dependency>
+```
+
+#### Example.java
 ```
 public class Example {
     void fileChanged(String dir, String file) {
