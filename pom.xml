@@ -10,7 +10,7 @@
     <groupId>com.speedledger</groupId>
     <artifactId>filechangemonitor</artifactId>
     <packaging>jar</packaging>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <url>https://github.com/speedledger/filechangemonitor</url>
     <description>Simple util for monitoring file changes on disk</description>
